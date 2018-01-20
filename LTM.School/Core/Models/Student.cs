@@ -16,7 +16,7 @@ namespace LTM.School.Core.Models
 
         public DateTime EnrollmentDate { get; set; }
 
-        public IComparable<Enrollment> Enrollments
+        public ICollection<Enrollment> Enrollments
         {
             get; set;
 
